@@ -1,0 +1,52 @@
+{
+  "name": "hotel-ai-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 next dev",
+    "build": "next build",
+    "start": "next start -p 3003",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.0",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/styles": "^5.13.2",
+    "@mui/x-date-pickers": "^6.5.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "20.1.2",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "fs": "^0.0.1-security",
+    "http-proxy-middleware": "^2.0.6",
+    "isomorphic-unfetch": "^4.0.2",
+    "moment": "^2.29.4",
+    "next": "13.4.1",
+    "next-absolute-url": "^1.2.2",
+    "next-redux-wrapper": "^8.1.0",
+    "next-sitemap": "^4.1.3",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "react-slideshow-image": "^4.2.1",
+    "redux": "^4.2.1",
+    "styled-components": "^6.0.0-rc.1",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}
